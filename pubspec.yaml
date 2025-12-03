@@ -1,0 +1,22 @@
+name: f1_replay_mobile
+description: F1 Race Replay (Flutter client)
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=2.18.0 <3.1.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  vector_math: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/track.json
